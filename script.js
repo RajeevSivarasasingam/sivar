@@ -13,6 +13,8 @@ const amount = document.getElementById('amount');
 //   { id: 4, text: 'Camera', amount: 150 }
 // ];
 
+// Fetching transactions from local storage
+
 const localStorageTransactions = JSON.parse(
   localStorage.getItem('transactions')
 );
